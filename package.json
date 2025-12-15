@@ -1,0 +1,19 @@
+{
+  "name": "millionth-dollar-homepage",
+  "version": "1.0.0",
+  "description": "Educational demo of x402 protocol - agents pay micropayments to place pixel ads",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client",
+    "agent"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev --workspace=server",
+    "dev:client": "npm run dev --workspace=client",
+    "dev:agent": "npm run start --workspace=agent"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
